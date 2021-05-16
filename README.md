@@ -10,7 +10,6 @@ This is my final year project of BE-Computer. This project is made to manage the
 </div>
 
 <br/>
-<br/>
 
 ## Table of contents
 * [Demo](#Demo)
