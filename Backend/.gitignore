@@ -3,7 +3,6 @@
 /logs/*
 /tmp/*
 /vendor/*
-/.env
 
 # OS generated files #
 ######################
@@ -37,3 +36,7 @@ nbproject/*
 .vscode
 # Sass preprocessor
 .sass-cache/
+
+# Project specific files #
+##########################
+service-account.json
