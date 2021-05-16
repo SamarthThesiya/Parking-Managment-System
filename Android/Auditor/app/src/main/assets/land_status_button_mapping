@@ -1,0 +1,26 @@
+{
+  "pending_approval": {
+    "status_color": "#e08626",
+    "status_value": "Pending Approval",
+    "btn_text": "Audit",
+    "btn_text_color": "#57C4E5"
+  },
+  "approved_and_activated": {
+    "status_color": "#6ab066",
+    "status_value": "Approved and Activated",
+    "btn_text": "Edit Comment",
+    "btn_text_color": "#57C4E5"
+  },
+  "approved_and_deactivated": {
+    "status_color": "#d2492d",
+    "status_value": "Approved and Deactivated",
+    "btn_text": "Edit Comment",
+    "btn_text_color": "#57C4E5"
+  },
+  "rejected": {
+    "status_color": "#d2492d",
+    "status_value": "Rejected",
+    "btn_text": "Edit Comment",
+    "btn_text_color": "#57C4E5"
+  }
+}

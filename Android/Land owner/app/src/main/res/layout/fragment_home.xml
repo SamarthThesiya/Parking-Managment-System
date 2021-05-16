@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyLandsFragment">
+
+    <data>
+        <variable
+            name="fragment"
+            type="com.example.parkingmanagment.HomeFragment" />
+
+        <variable
+            name="landListAdaptor"
+            type="adapter.LandListAdaptor" />
+    </data>
+
+    <FrameLayout
+        android:id="@+id/main"
+        android:layout_margin="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_doNotHaveLandMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seems like you don't have registered any land or it's not approved or activated yet. To register it please click HERE or to check status of land please click HERE"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:padding="50dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_lands"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adapter="@{landListAdaptor}"
+                tools:listitem="@layout/item_land_list" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</layout>

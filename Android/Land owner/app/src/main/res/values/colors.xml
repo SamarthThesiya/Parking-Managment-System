@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D1D646</color>
+    <color name="colorPrimaryDark">#F97068</color>
+    <color name="colorAccent">#57C4E5</color>
+    <color name="themeDark">#212738</color>
+    <color name="logoColor">#BF041E68</color>
+    <color name="themeLight">#EDF2EF</color>
+    <color name="grey">#818C85</color>
+    <color name="transparent">#00D81B1B</color>
+</resources>

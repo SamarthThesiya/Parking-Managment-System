@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LandPhotosFragment">
+
+    <data>
+        <variable
+            name="fragment"
+            type="com.example.parkingmanagment.LandPhotosFragment" />
+    </data>
+
+    <FrameLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp"
+                    android:paddingBottom="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="South To North"
+                            android:textSize="22dp"
+                            android:textStyle="bold"
+                            android:layout_weight="1" />
+
+                        <!--                        <custom_view.PmButton-->
+                        <!--                            android:layout_marginStart="5dp"-->
+                        <!--                            android:id="@+id/btn_view_img_s_to_n"-->
+                        <!--                            android:layout_width="wrap_content"-->
+                        <!--                            android:layout_height="35dp"-->
+                        <!--                            android:background="@drawable/border"-->
+                        <!--                            android:text="view"/>-->
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <custom_view.PmImageView
+                            android:id="@+id/img_s_to_n"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/image_placeholder" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv_viewMsg"
+                            android:layout_alignParentBottom="true"
+                            android:layout_margin="1dp"
+                            android:layout_alignParentEnd="true"/>
+                    </RelativeLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="10dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp"
+                    android:paddingBottom="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="North To South"
+                            android:textSize="22dp"
+                            android:textStyle="bold"
+                            android:layout_weight="1"/>
+
+
+<!--                        <custom_view.PmButton-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:id="@+id/btn_view_img_n_to_s"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="35dp"-->
+<!--                            android:background="@drawable/border"-->
+<!--                            android:visibility="invisible"-->
+<!--                            android:text="view"/>-->
+                    </LinearLayout>
+
+                    <custom_view.PmImageView
+                        android:id="@+id/img_n_to_s"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/image_placeholder" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="10dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp"
+                    android:paddingBottom="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="East To West"
+                            android:textSize="22dp"
+                            android:textStyle="bold"
+                            android:layout_weight="1"/>
+
+
+<!--                        <custom_view.PmButton-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:id="@+id/btn_view_img_e_to_w"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="35dp"-->
+<!--                            android:background="@drawable/border"-->
+<!--                            android:visibility="invisible"-->
+<!--                            android:text="view"/>-->
+                    </LinearLayout>
+
+                    <custom_view.PmImageView
+                        android:id="@+id/img_e_to_w"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/image_placeholder" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="10dp">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp"
+                    android:paddingBottom="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="West To East"
+                            android:textSize="22dp"
+                            android:textStyle="bold"
+                            android:layout_weight="1"/>
+
+<!--                        <custom_view.PmButton-->
+<!--                            android:layout_marginLeft="5dp"-->
+<!--                            android:id="@+id/btn_view_img_w_to_e"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="35dp"-->
+<!--                            android:background="@drawable/border"-->
+<!--                            android:visibility="invisible"-->
+<!--                            android:text="view"/>-->
+                    </LinearLayout>
+
+                    <custom_view.PmImageView
+                        android:id="@+id/img_w_to_e"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/image_placeholder" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </FrameLayout>
+</layout>

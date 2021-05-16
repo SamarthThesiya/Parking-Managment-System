@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Parking Finder Auditor</string>
+    <string name="login">Login</string>
+    <string name="phone_number">Phone number</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="user_name">User name</string>
+    <string name="sent_otp">Sent Otp</string>
+    <string name="register">Register</string>
+    <string name="enter_otp">Enter otp</string>
+    <string name="verify_otp">Verify OTP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="on_10_availability"><![CDATA[On <10% Availability]]></string>
+    <string name="google_maps_key">AIzaSyALZzGzZjOZLq-5eJ386i__GElDlYBEW5w</string>
+    <string name="Land_Status_Drafted">drafted</string>
+</resources>

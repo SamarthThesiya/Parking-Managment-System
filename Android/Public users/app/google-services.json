@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "289380861466",
+    "firebase_url": "https://parking-finder-2b52b.firebaseio.com",
+    "project_id": "parking-finder-2b52b",
+    "storage_bucket": "parking-finder-2b52b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289380861466:android:be794a4b9b515dd96f73a3",
+        "android_client_info": {
+          "package_name": "com.example.parkingmanagment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289380861466-8ie76lkhs07th618ncc62dj0auueckku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkingmanagment",
+            "certificate_hash": "73b6d9c3c258c501368b039c3a917f4d3315fa8d"
+          }
+        },
+        {
+          "client_id": "289380861466-n558e0l62m00ou9hmdd9bumdioc9otq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDboJ7igZ4ljfK9hEkqPdxDPdKzFuxgGiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289380861466-n558e0l62m00ou9hmdd9bumdioc9otq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289380861466:android:d29a67c8a872d8d66f73a3",
+        "android_client_info": {
+          "package_name": "com.example.parkingmanagment.auditor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289380861466-64kuoh8ousauvo7v178dcquifh99ck7h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkingmanagment.auditor",
+            "certificate_hash": "73b6d9c3c258c501368b039c3a917f4d3315fa8d"
+          }
+        },
+        {
+          "client_id": "289380861466-n558e0l62m00ou9hmdd9bumdioc9otq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDboJ7igZ4ljfK9hEkqPdxDPdKzFuxgGiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289380861466-n558e0l62m00ou9hmdd9bumdioc9otq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289380861466:android:c728d3306b9a2e716f73a3",
+        "android_client_info": {
+          "package_name": "com.example.parkingmanagment.landowner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289380861466-a472itamah4qmeu9s24uiasebpnj69es.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkingmanagment.landowner",
+            "certificate_hash": "73b6d9c3c258c501368b039c3a917f4d3315fa8d"
+          }
+        },
+        {
+          "client_id": "289380861466-n558e0l62m00ou9hmdd9bumdioc9otq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDboJ7igZ4ljfK9hEkqPdxDPdKzFuxgGiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289380861466-n558e0l62m00ou9hmdd9bumdioc9otq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289380861466:android:3b802bcbc9c0a3e16f73a3",
+        "android_client_info": {
+          "package_name": "com.example.parkingmanagment.service"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289380861466-n558e0l62m00ou9hmdd9bumdioc9otq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDboJ7igZ4ljfK9hEkqPdxDPdKzFuxgGiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289380861466-n558e0l62m00ou9hmdd9bumdioc9otq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

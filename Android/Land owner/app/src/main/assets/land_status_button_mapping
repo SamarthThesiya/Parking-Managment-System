@@ -1,0 +1,44 @@
+{
+  "pending_approval": {
+    "status_color": "#e08626",
+    "status_value": "Pending Approval",
+    "btn_text": "Cancel Request",
+    "btn_text_color": "#d2492d",
+    "action": "cancel_request"
+  },
+  "approved_and_activated": {
+    "status_color": "#6ab066",
+    "status_value": "Approved and Activated",
+    "btn_text": "Deactivate",
+    "btn_text_color": "#d2492d",
+    "action": "deactivate"
+  },
+  "approved_and_deactivated": {
+    "status_color": "#d2492d",
+    "status_value": "Approved and Deactivated",
+    "btn_text": "Activate",
+    "btn_text_color": "#6ab066",
+    "action": "activate"
+  },
+  "rejected": {
+    "status_color": "#d2492d",
+    "status_value": "Rejected",
+    "btn_text": "Edit and resend request",
+    "btn_text_color": "#5fa68a",
+    "action": "edit_and_resent"
+  },
+  "drafted": {
+    "status_color": "#e08626",
+    "status_value": "Drafted",
+    "btn_text": "Edit and send request",
+    "btn_text_color": "#5fa68a",
+    "action": "edit_and_resent"
+  },
+  "request_cancelled": {
+    "status_color": "#d2492d",
+    "status_value": "Request Cancelled",
+    "btn_text": "Edit and resend request",
+    "btn_text_color": "#5fa68a",
+    "action": "edit_and_resent"
+  }
+}
