@@ -1,6 +1,6 @@
 # Parking Management System
 
-<img src="https://drive.google.com/uc?export=view&id=12Yhcl35EdrRlM6qstVg55CnOtW_xFRAD" align="left" height="128px" />
+<img src="https://drive.google.com/uc?export=view&id=12Yhcl35EdrRlM6qstVg55CnOtW_xFRAD" align="left" height="100px" />
 <img align="left" width="0" height="128px" hspace="10" />
 
 <div style="display:block; height: 168px;">
